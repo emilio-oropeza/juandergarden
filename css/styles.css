@@ -223,6 +223,7 @@ section{
 		border-radius: 20px;
 		opacity: 0.5;
 		cursor: pointer;
+		max-width: 191px
 	}
 	.img-gallery:hover,
 	.img-gallery:focus{
