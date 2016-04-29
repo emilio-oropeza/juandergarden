@@ -10,7 +10,9 @@ $(document).ready(function(){
 	$('.my-flipster').flipster({
 		buttons: true,
 		start: 1,
-		scrollwheel: false
+		scrollwheel: false,
+		style: 'flat',
+		spacing: 0
 	});
 	$(document).delegate('*[data-toggle="lightbox"]', 'click', function(event) {
 	    event.preventDefault();

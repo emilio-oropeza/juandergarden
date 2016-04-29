@@ -60,6 +60,7 @@
 .descripcion-video{
 	font-size: 16px;
 	font-weight: 300;
+	color: #ffffff;
 }
 .elementos-sueltos{
 	position: absolute;
@@ -75,7 +76,7 @@ section{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top center;
-	padding: 90px 0px;
+	padding: 45px 0px;	
 }
 #portada{
 	padding: 0px;
@@ -93,7 +94,7 @@ section{
 	}
 	#portada > .container > div > p{
 		font-weight: 700;		
-		margin: auto;
+		margin: 10% auto 10%;
 	}
 	#portada-edificios{
 		width: 100%;
@@ -136,6 +137,7 @@ section{
 	}
 	#videos-btns{
 		display: inline-block;
+		width: 100%;
 	}
 	#viejos-2000 .media-body, #viejos-2000 .media-left, #viejos-2000 .media-right {
 	    display: inline-block;
@@ -176,7 +178,7 @@ section{
 	}
 @media screen and (min-width: 540px) and (min-height: 590px){
 	#portada > .container > div > p {
-	    margin: 40px auto 60px;
+	    margin: 40px auto 100px;
 	}
 	#portada > .container > div {
 	    height: 590px;
@@ -192,8 +194,14 @@ section{
 	}
 }
 @media screen and (min-width: 768px){
+	section{
+		padding: 90px 0px;
+	}
 	#portada > .container > div{
 		width: 768px;
+	}
+	#videos-btns{
+		width: 33.33333333%;
 	}
 	.edificios-imgs:nth-child(2),
 	.edificios-imgs:nth-child(6){display: block;}

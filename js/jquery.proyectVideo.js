@@ -42,6 +42,7 @@
 					$(video2).addClass("videos");
 					$(video3).addClass("videos");
 					$(".videos").css({display:"none"});
+					$(video1).show();
 					$(target).css({
 						position: 'relative',
 						margin: 'auto'
@@ -110,7 +111,7 @@
 						}						
 						$(componentObj.videoHolder).css({
 							width: width,
-							height: (componentObj.isOpen)?"100%":"18%"
+							height: "100%"
 						});
 						$(componentObj.videoContainer).css({
 							width: width,
