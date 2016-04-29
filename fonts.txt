@@ -1,0 +1,12 @@
+Tipografia: Archivo Narrow.
+
+-1a seccion: bold 18 pts
+
+2a seccion: descripcion 18 pts regular
+                    nombres de video: 21 pts regular (video sin seleccionar)
+                    nombres de video: 21 pts bold (video seleccionado)
+
+-3a seccion: descripccion 18 pts regular
+                     descripcion video: 16 pts regular
+
+-4a seccion: descripcion 18 pts regular

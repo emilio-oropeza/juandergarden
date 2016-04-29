@@ -1,0 +1,232 @@
+/* Animaciones */
+@-moz-keyframes flota-par {
+    0%   {top: -5px;}
+    50%  {top: 5px;}
+    100% {top: -5px;}
+}
+@-webkit-keyframes flota-par {
+    0%   {top: -5px;}
+    50%  {top: 5px;}
+    100% {top: -5px;}
+}
+@keyframes flota-par {
+    0%   {top: -5px;}
+    50%  {top: 5px;}
+    100% {top: -5px;}
+}
+@-moz-keyframes flota-non {
+    0%   {top: 5px;}
+    50%  {top: -5px;}
+    100% {top: 5px;}
+}
+@-webkit-keyframes flota-non {
+    0%   {top: 5px;}
+    50%  {top: -5px;}
+    100% {top: 5px;}
+}
+@keyframes flota-non {
+    0%   {top: 5px;}
+    50%  {top: -5px;}
+    100% {top: 5px;}
+}
+
+/* General */
+.center-abs{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
+.img-center{
+	margin: auto;
+}
+.descripcion{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 20px;
+	max-width: 360px;
+	width: 100%;
+	margin: 40px auto 75px;
+}
+.nombre-video{
+	font-size: 21px;
+	font-weight: 400;
+}
+.nombre-video-seleccionado{
+	font-weight: 700;
+}
+.descripcion-video{
+	font-size: 16px;
+	font-weight: 300;
+}
+.elementos-sueltos{
+	position: absolute;
+	display: none;
+}
+article{	
+	font-family: 'Archivo Narrow', sans-serif;
+	color: #ffffff;
+	overflow-x: hidden;
+}
+section{
+	position: relative;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top center;
+	padding: 90px 0px;
+}
+#portada{
+	padding: 0px;
+	max-height: 900px;
+	min-height: 420px;
+	background-image: url("../images/portada/fondo1.png");
+}
+	#portada > .container{
+		position: relative;
+		height: 100%;
+	}
+	#portada > .container > div{
+		width: 300px;
+		height: 420px;
+	}
+	#portada > .container > div > p{
+		font-weight: 700;		
+		margin: auto;
+	}
+	#portada-edificios{
+		width: 100%;
+		height: 210px;
+		position: relative;
+	}
+	.edificios-imgs{
+		position: absolute;
+		height: 210px;
+		top: 0px;
+		display: none;
+		-webkit-animation-duration: 5s;
+		-moz-animation-duration: 5s;
+		animation-duration: 5s;
+		-webkit-animation-iteration-count: infinite;
+		-moz-animation-iteration-count: infinite;
+		animation-iteration-count: infinite;
+	}
+	.edificios-imgs:nth-child(odd){
+		-webkit-animation-name: flota-par;
+		-moz-animation-name: flota-par;
+		animation-name: flota-par;
+	}
+	.edificios-imgs:nth-child(even){
+		-webkit-animation-name: flota-non;
+		-moz-animation-name: flota-non;
+		animation-name: flota-non;
+	}
+	.edificios-imgs:nth-child(4){
+		display: block;
+		left: 0;
+		right: 0;
+		margin: auto;
+	}
+#viejos-2000{
+	background-image: url("../images/viejos-2000/fondo2.png");
+}	
+	.img-btn{
+		cursor: pointer;
+	}
+	#videos-btns{
+		display: inline-block;
+	}
+	#viejos-2000 .media-body, #viejos-2000 .media-left, #viejos-2000 .media-right {
+	    display: inline-block;
+	    width: 100%;
+	    text-align: center;
+	}
+#juan-manana{
+	background-image: url("../images/manana/fondo3.png");
+}
+	.ui-coverflow-wrapper{
+	    height:400px;
+	    margin-top: 100px;
+	}
+	.ui-state-active{
+	    border:0px;
+	}
+	.my-flipster li{
+		width: 300px;
+	}
+	.thumbnail{
+		background-color: transparent;
+		border-color: transparent;
+	}
+#maquina-tiempo{
+	background-image: url("../images/maquina/fondo4.png");
+}
+	.img-gallery{
+		border: 10px solid;
+		border-color: transparent;
+		border-radius: 20px;
+		opacity: 0.5;
+		cursor: pointer;
+	}
+	.img-gallery:hover,
+	.img-gallery:focus{
+		border-color: #ffffff;
+		opacity: 1;
+	}
+@media screen and (min-width: 540px) and (min-height: 590px){
+	#portada > .container > div > p {
+	    margin: 40px auto 60px;
+	}
+	#portada > .container > div {
+	    height: 590px;
+	}
+}
+@media screen and (min-width: 540px){
+	#portada{min-height: 680px;}
+	#portada > .container > div{width: 540px;}
+	.edificios-imgs:nth-child(3){display: block;}
+	.edificios-imgs:nth-child(5){
+		display: block;
+		right: 0px;
+	}
+}
+@media screen and (min-width: 768px){
+	#portada > .container > div{
+		width: 768px;
+	}
+	.edificios-imgs:nth-child(2),
+	.edificios-imgs:nth-child(6){display: block;}
+	.edificios-imgs:nth-child(3){left: 125px;}
+	.edificios-imgs:nth-child(5){right: 125px;}	
+	.edificios-imgs:nth-child(6){right: 0px;}
+	#viejos-2000 .media-body, 
+	#viejos-2000 .media-left, 
+	#viejos-2000 .media-right {
+		width: auto;
+		text-align: right;
+	}
+	#viejos-2000 .media-body{
+		max-width: 80px;
+	}
+	#viejos-2000 .media-left > img,
+	#viejos-2000 .media-right > img  {
+	    width: 96px;
+	}
+}
+@media screen and (min-width: 992px){
+	#portada > .container > div{
+		width: 980px;
+	}
+	#viejos-2000 .media-body{
+		max-width: 125px;
+	}
+	.edificios-imgs{display: block;}
+	.edificios-imgs:nth-child(2){left: 142px;}
+	.edificios-imgs:nth-child(3){left: 260px;}
+	.edificios-imgs:nth-child(5){right: 255px;}	
+	.edificios-imgs:nth-child(6){right: 118px;}
+	.edificios-imgs:nth-child(7){right: 0px;}
+}
+@media screen and (min-width: 1200px){
+}
