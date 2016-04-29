@@ -62,6 +62,9 @@
 	font-weight: 300;
 	color: #ffffff;
 }
+.container{
+	position: relative;
+}
 .elementos-sueltos{
 	position: absolute;
 	display: none;
@@ -176,6 +179,12 @@ section{
 	    width: 100%;
 	    text-align: center;
 	}
+	#viejos-2000 > .container > .elementos-sueltos:nth-child(3){
+		display: block;
+		right: 0%;
+		bottom: 56%;
+		width: 60px;
+	}
 #juan-manana{
 	background-image: url("../images/manana/fondo3.png");
 }
@@ -193,6 +202,18 @@ section{
 		background-color: transparent;
 		border-color: transparent;
 	}
+	#juan-manana > .container > .elementos-sueltos:nth-child(1){
+		display: block;
+		right: 0%;
+		top: 35%;
+		width: 96px;
+	}
+	#juan-manana > .container > .elementos-sueltos:nth-child(2){
+		display: block;
+		left: 10%;
+		bottom: 0%;
+		width: 65px;
+	}
 #maquina-tiempo{
 	background-image: url("../images/maquina/fondo4.png");
 }
@@ -208,13 +229,64 @@ section{
 		border-color: #ffffff;
 		opacity: 1;
 	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(1){
+		display: block;
+		top: 3%;
+		left: 0%;
+		width: 70px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(2){
+		display: block;
+		top: 70%;
+		left: 84%;
+		width: 50px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(3){
+		display: block;
+		top: 12%;
+		left: 85%;
+		width: 58px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(4){
+		display: block;
+		top: 40%;
+		left: 0%;
+		width: 50px;
+	}
+	
+@media screen and (min-height: 590px){
+	#portada > .container > .elementos-sueltos:nth-child(7){
+		display: block;
+		width: 110px;
+		left: 60%;
+		top: 80%;
+		-moz-transform: rotate(340deg);
+		-webkit-transform: rotate(340deg);
+		transform: rotate(340deg);
+	}	
+	#portada > .container > .elementos-sueltos:nth-child(9){
+		display: block;
+		width: 60px;
+		left: 5%;
+		top: 80%;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(8){
+		display: block;
+		width: 40px;
+		left: 75%;
+		top: 5%;
+		-moz-transform: rotate(18deg);
+		-webkit-transform: rotate(18deg);
+		transform: rotate(18deg);
+	}
+}
 @media screen and (min-width: 540px) and (min-height: 590px){
 	#portada > .container > div > p {
-	    margin: 40px auto 100px;
+	    margin: 40px auto 120px;
 	}
 	#portada > .container > div {
 	    height: 590px;
-	}
+	}	
 }
 @media screen and (min-width: 540px){
 	#portada{min-height: 680px;}
@@ -224,8 +296,102 @@ section{
 		display: block;
 		right: 0px;
 	}
+	#portada > .container > .elementos-sueltos:nth-child(7){
+		left: 75%;
+		top: 50%;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(8){
+		width: 40px;
+		left: 74%;
+		top: 30%;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(9){
+		width: 60px;
+		left: 5%;
+		top: 50%;
+	}
+	#viejos-2000 > .container > .elementos-sueltos:nth-child(3){
+		right: 5%;
+		bottom: 68%;
+		width: 90px;
+	}
 }
 @media screen and (min-width: 768px){
+	#portada > .container > .elementos-sueltos:nth-child(1){
+		display: block;
+		width: 60px;
+		left: 0px;
+		top: 272px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(2){
+		display: block;
+		width: 82px;
+		left: 655px;
+		top: 25px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(3){
+		display: block;
+		width: 70px;
+		left: 0px;
+		top: 40px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(7){
+		display: block;
+		width: 160px;
+		left: 555px;
+		top: 290px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(8){
+		display: block;
+		width: 40px;
+		left: 690px;
+		top: 175px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(9){
+		display: block;
+		width: 60px;
+		left: 95px;
+		top: 328px;
+	}
+	#viejos-2000 > .container > .elementos-sueltos:nth-child(1){
+		display: block;
+		left: 50px;
+		top: 220px;
+	}
+	#viejos-2000 > .container > .elementos-sueltos:nth-child(2){
+		display: block;
+		right: 40px;
+		top: 225px;	
+	}
+	#viejos-2000 > .container > .elementos-sueltos:nth-child(3){
+		right: 0px;
+		bottom: -50px;
+	}
+	#viejos-2000 > .container > .elementos-sueltos:nth-child(4){
+		display: block;
+		width: 75px;
+		left: 30px;
+		top: 655px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(1){
+		top: 260px;
+		left: 0%;
+		width: 105px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(2){
+		top: 640px;
+		left: 710px;
+		width: 77px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(3){
+		top: 110px;
+		left: 670px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(4){
+		top: 680px;
+		left: 0px;
+		width: 54px;
+	}
 	section{
 		padding: 90px 0px;
 	}
@@ -255,8 +421,56 @@ section{
 	}
 }
 @media screen and (min-width: 992px){
+	#portada > .container > .elementos-sueltos:nth-child(2){
+		left:  900px;
+		top: 170px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(4){
+		display: block;
+		width: 100px;
+		left: 835px;
+		top: 270px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(5){
+		display: block;
+		width: 70px;
+		left: 110px;
+		top: 25px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(6){
+		display: block;
+		width: 162px;
+		left: 800px;
+		top: 0px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(7){
+		left: 670px;
+		top: 290px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(8){
+		left: 795px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(9){
+		left: 140px;
+	}
 	#portada > .container > div{
 		width: 980px;
+	}
+	#viejos-2000 > .container > .elementos-sueltos:nth-child(3){
+		right: 0px;
+		bottom: -78px;
+		width: 117px;
+	}
+	#juan-manana > .container > .elementos-sueltos:nth-child(1){
+		right: 120px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(3) {
+	    top: 110px;
+	    left: 955px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(2) {
+	    top: 640px;
+	    left: 915px;
 	}
 	#viejos-2000 .media-body{
 		max-width: 125px;
@@ -267,6 +481,44 @@ section{
 	.edificios-imgs:nth-child(5){right: 255px;}	
 	.edificios-imgs:nth-child(6){right: 118px;}
 	.edificios-imgs:nth-child(7){right: 0px;}
+	#portada > .elementos-sueltos{
+		display: block;
+		left: 0px;
+		top: 20%;
+	}
 }
-@media screen and (min-width: 1200px){
+@media screen and (min-width: 1200px){	
+	#portada > .container > .elementos-sueltos:nth-child(2){
+		left: 1100px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(4){
+		left: 985px;
+		top: 260px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(5){
+		left: 150px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(6){
+		left: 930px;
+		top: 15px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(7){
+		left: 830px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(8){
+		left: 955px;
+		top: 175px;
+	}
+	#portada > .container > .elementos-sueltos:nth-child(9){
+		top: 328px;
+	}
+	#juan-manana > .container > .elementos-sueltos:nth-child(1){
+		right: 225px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(3) {
+	    top: 215px;
+	}
+	#maquina-tiempo > .container > .elementos-sueltos:nth-child(2) {
+	    left: 1105px;
+	}
 }
