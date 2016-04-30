@@ -43,12 +43,9 @@
 	margin: auto;
 }
 .descripcion{
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 20px;
-	max-width: 360px;
+	max-width: 139px;
 	width: 100%;
-	margin: 40px auto 75px;
+	margin: 15px auto;
 }
 .nombre-video{
 	font-size: 21px;
@@ -182,7 +179,7 @@ section{
 	#viejos-2000 > .container > .elementos-sueltos:nth-child(3){
 		display: block;
 		right: 0%;
-		bottom: 56%;
+		bottom: 75%;
 		width: 60px;
 	}
 #juan-manana{
@@ -205,7 +202,7 @@ section{
 	#juan-manana > .container > .elementos-sueltos:nth-child(1){
 		display: block;
 		right: 0%;
-		top: 35%;
+		top: 0%;
 		width: 96px;
 	}
 	#juan-manana > .container > .elementos-sueltos:nth-child(2){
@@ -280,6 +277,9 @@ section{
 		-webkit-transform: rotate(18deg);
 		transform: rotate(18deg);
 	}
+	.descripcion{
+		margin: 55px auto;
+	}
 }
 @media screen and (min-width: 540px) and (min-height: 590px){
 	#portada > .container > div > p {
@@ -312,8 +312,8 @@ section{
 		top: 50%;
 	}
 	#viejos-2000 > .container > .elementos-sueltos:nth-child(3){
-		right: 5%;
-		bottom: 68%;
+		right: 0%;
+		bottom: 65%;
 		width: 90px;
 	}
 }
@@ -339,7 +339,7 @@ section{
 	#portada > .container > .elementos-sueltos:nth-child(7){
 		display: block;
 		width: 160px;
-		left: 555px;
+		left: 530px;
 		top: 290px;
 	}
 	#portada > .container > .elementos-sueltos:nth-child(8){
@@ -357,12 +357,12 @@ section{
 	#viejos-2000 > .container > .elementos-sueltos:nth-child(1){
 		display: block;
 		left: 50px;
-		top: 220px;
+		top: 175px;
 	}
 	#viejos-2000 > .container > .elementos-sueltos:nth-child(2){
 		display: block;
 		right: 40px;
-		top: 225px;	
+		top: 175px;	
 	}
 	#viejos-2000 > .container > .elementos-sueltos:nth-child(3){
 		right: 0px;
@@ -372,24 +372,24 @@ section{
 		display: block;
 		width: 75px;
 		left: 30px;
-		top: 655px;
+		top: 555px;
 	}
 	#maquina-tiempo > .container > .elementos-sueltos:nth-child(1){
-		top: 260px;
+		top: 60px;
 		left: 0%;
 		width: 105px;
 	}
 	#maquina-tiempo > .container > .elementos-sueltos:nth-child(2){
-		top: 640px;
+		top: 415px;
 		left: 710px;
 		width: 77px;
 	}
 	#maquina-tiempo > .container > .elementos-sueltos:nth-child(3){
-		top: 110px;
+		top: 65px;
 		left: 670px;
 	}
 	#maquina-tiempo > .container > .elementos-sueltos:nth-child(4){
-		top: 680px;
+		top: 420px;
 		left: 0px;
 		width: 54px;
 	}

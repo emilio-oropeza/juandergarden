@@ -4,7 +4,7 @@ $(document).ready(function(){
 		$("#portada").height(screenHeight());
 	});
 	$("#video-player-cont").proyectVideo({
-		videos:["u_TpWWZyoCM","u_TpWWZyoCM","u_TpWWZyoCM"],
+		videos:["u_TpWWZyoCM","QFZgAdjQJGI","TV1o-mfPNX4"],
 		image:urlIndepth+"images/viejos-2000/lucecita1.svg"
 	});
 	$('.my-flipster').flipster({
